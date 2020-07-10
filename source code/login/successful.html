@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Successfully saved</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                text-align: center;
+            }
+            #p,#o,#g,#oe{
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+   cursor: pointer;
+   text-align: center;
+   
+}
+#p{
+    background-color: crimson;
+    animation-name: verti_up;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+#o{
+    background-color: pink;
+     animation-name: verti_up;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+#g{
+    background-color: midnightblue;
+    animation-name: verti_up ;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+#oe{
+    background-color: lightblue;
+    animation-name: verti_up;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes verti_up{
+    0%{
+        transform: translateY(200px) rotate(0deg);
+    }
+    25%{
+        transform: translateY(150px) rotate(90deg);
+    }
+    50%{
+        transform: translateY(200px) rotate(180deg);
+    }
+    75%{transform: translateY(180px) rotate(270deg);
+                 }
+    100%{transform: translateY(200px)  rotate(360deg);
+    }
+}
+
+        </style>
+        <script>
+            setTimeout(function(){
+               window.location.href="index.php"; 
+            }, 4000);
+        </script>
+    </head>
+    <body style="background-color: white; letter-spacing: 2px; font-family: sens-serif;">
+        <p style="color: navy; font-size: 15px; padding-left: 20px; padding-top: 10px; ">
+            Password changed successfully. You will be redirected to the login page shortly.</p>
+        <div id="animation">
+            <div id="p">
+                       <p></p>
+                   </div>
+                   <div id="o">
+                       <p></p>
+                   </div>
+                   <div id="g">
+                       <p></p>
+                   </div>
+                   <div id="oe">
+                       <p></p>
+                   </div>
+        </div>
+    </body>
+</html>

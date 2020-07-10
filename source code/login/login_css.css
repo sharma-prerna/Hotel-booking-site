@@ -1,0 +1,97 @@
+body{
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/building.jpeg"); 
+	background-position: center;
+	background-size: cover;
+	margin-top: 0;
+	padding: 0;
+	font-family: sans-serif;
+                z-index: -1;
+                letter-spacing: 2px;
+}
+.sign-up-form{
+	width: 350px;
+	padding: 20px;
+	margin: 5% auto 0; 
+	text-align: center;
+                color:white;
+                background: transparent;
+}
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 10px;
+	width:95%;
+	border: 1px solid #999;
+	outline: none;
+        
+}
+.input-box{
+    padding-left: 6%;
+}
+p,a{
+	color: white;
+  font-size: 20px;
+}
+a:hover{
+    color: aqua;
+}
+.reg-btn{
+	color: white;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.reg-btn{
+	background-color: darkslateblue;
+}
+.reg-btn:hover{
+    background-color: forestgreen;
+}
+img{
+	width: 60px;
+             margin-top: -50px;
+           border-radius: 50%;
+    }
+    
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.footer {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  width:100%;
+}

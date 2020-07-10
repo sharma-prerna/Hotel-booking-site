@@ -1,0 +1,97 @@
+
+*{
+   letter-spacing: 2px;
+    font-family: sens-serif;
+}
+.header{
+    width:100%;
+    display: inline-block;
+    background-color: darkslateblue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.flex-container{
+    background-size: cover;
+    background-repeat: no-repeat;
+   display: flex;
+   flex-direction: row;
+   background-color: #88B04B;
+   flex-wrap: wrap;
+   color: white;
+   line-height: 15px;
+} 
+.flex-container > div{
+    background: transparent;
+    width: 50%;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: disc;
+    line-height: 20px;
+}
+button{
+    background-color: darkslateblue;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 1px 1px 2px black;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+button:hover{
+    background-color: forestgreen;
+    cursor: pointer;
+}
+.footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
+ p{
+    margin-left: 30px;
+    font-size: 20px;
+}
+#payment{
+    color: white;
+    box-sizing: border-box;
+   display: inline-block;
+   width: 100%;
+   padding: 20px;
+}
+.input-box {
+    width: 60%;
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border-style: none;
+}
+.btn{
+    margin-top: 40px;
+    background-color: darkslateblue;
+    width: 40%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border-radius: 30px;
+    border-style: none;
+    box-shadow: 0px 1px 1px black;
+}
+.btn:hover{
+    background-color: forestgreen;
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+}

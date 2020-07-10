@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>SUCCESSFUL PAYMENT</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                letter-spacing: 2px;
+                font-family: sens-serif;
+            }
+            body{
+                background-color: white;
+                text-align: center;
+            }
+            
+            p{
+                text-align: justify;
+                color: orangered;
+                font-size: 20px;
+                line-height: 25px;
+                padding-top: 8%;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+           
+            span{
+                font-weight: bold;
+                color: #001f36;
+            }
+               
+            #p,#o,#g,#oe{
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+   cursor: pointer;
+   text-align: center;
+   
+}
+#p{
+    background-color: crimson;
+    animation-name: verti_up;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+#o{
+    background-color: pink;
+     animation-name: verti_up;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+#g{
+    background-color: midnightblue;
+    animation-name: verti_up ;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+#oe{
+    background-color: lightblue;
+    animation-name: verti_up;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+    
+@keyframes verti_up{
+    0%{
+        transform: translateY(200px) rotate(0deg);
+    }
+    25%{
+        transform: translateY(170px) rotate(90deg);
+    }
+    50%{
+        transform: translateY(200px) rotate(180deg);
+    }
+    75%{transform: translateY(190px) rotate(270deg);
+                 }
+    100%{transform: translateY(200px)  rotate(360deg);
+    }
+}
+        </style>
+        <script>
+            setTimeout(function(){
+                window.location.href="../Searching/main.php";
+            },10000 );
+            </script>
+    </head>
+    <body>
+ 
+        <p><span>Hurray! Payment successful</span>. Now you have become our guests and since
+            our guests are our pride hence we will try our best to  not disappoint you in anyway by giving you
+           the best facilities and services in your comfort and satisfaction. If any queries, feel free
+            to contact us anytime as contact services are available 24/7. <span>Please save the World by saving 
+                the Nature :) because we don't want to lose you :(</span>.
+         </p>
+           <div id="animation">
+            <div id="p">
+                       <p></p>
+                   </div>
+                   <div id="o">
+                       <p></p>
+                   </div>
+                   <div id="g">
+                       <p></p>
+                   </div>
+                   <div id="oe">
+                       <p></p>
+                   </div>
+        </div>
+    </body>
+</html>

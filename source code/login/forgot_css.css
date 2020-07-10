@@ -1,0 +1,85 @@
+
+
+*{
+    letter-spacing: 2px;
+    font-family: sens-srif;
+}
+body{
+    background-color: lavender;
+    box-sizing: border-box;
+}
+#otp-container {
+  width: 60%;
+  height: 310px;
+  transform: translate(30%,20%);
+  background-color: white;
+  box-shadow: 0 0 4px gray;
+  padding: 20px;
+  text-align: center;
+}
+
+#form{
+ width: 100%;
+ height: 120px;
+ background:transparent;
+ display: block;
+ text-align: center;
+}
+.input-box{
+    width: 83%;
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-style: none;
+    font-size: 17px;
+    margin-top: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    transform: translateX(10%);
+      
+}
+ .reg-btn{
+    width: 83%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 4px gray;
+    background-color: darkslateblue;
+    padding: 20px;
+    transform: translateY(10px);
+}
+ .reg-btn:hover{
+    background-color: forestgreen;
+    cursor: pointer;
+}
+#disclaimer{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-justify: inter-word;
+    color: limegreen;
+    text-align: justify;
+    font-weight: bold;
+}
+#resend{
+    color: limegreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+#resend:hover{
+    color: lime;
+}
+#new_pass,#con_pass,#set{
+    display: block;
+}
+#send{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+

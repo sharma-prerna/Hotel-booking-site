@@ -1,0 +1,53 @@
+body{
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/building.jpeg"); 
+	background-position: center;
+	background-size: cover;
+	margin-top: 0;
+	padding: 0;
+	font-family: sans-serif;
+                z-index: -1;
+                letter-spacing: 2px;
+}
+.sign-up-form{
+	width: 350px;
+	padding: 20px;
+	margin-top: 50px;
+	margin-left: 33%; 
+	text-align: center;
+    color:white;
+    background: transparent;
+}
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	padding-left: 20px;
+	margin-top: 10px;
+	width:95%;
+	border: 1px solid #999;
+	outline: none;
+}
+p{
+	color: #fff;
+}
+.reg-btn{
+	color: white;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.reg-btn{
+	background-color: darkslateblue;
+}
+.reg-btn:hover{
+    background-color: forestgreen;
+}
+img{
+	width: 60px;
+             margin-top: -50px;
+           border-radius: 50%;
+}

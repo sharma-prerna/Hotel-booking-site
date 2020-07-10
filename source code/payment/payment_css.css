@@ -1,0 +1,119 @@
+*{
+    letter-spacing: 2px;
+    font-family: sens-serif;
+}
+body{
+    background-color: lavender;
+    box-sizing: border-box;
+}
+.form-container {
+  width: 60%;
+  height: 500px;
+  transform: translate(33%,10%);
+  background-color: white;
+  box-shadow: 0 0 4px gray;
+}
+
+.form img{
+   height: 50px;
+   width: 50px;
+   position: absolute;
+   right: 0px;
+   transform: translate(-150%,17%);
+   z-index: 1;
+}
+.cards {
+  background-color: white;
+  text-align: center;
+  width:100%;
+  height: 80px;
+  padding-top: 20px;
+}
+.cards i{
+    font-size: 40px;
+    margin: 10px;
+}
+.form{
+ width: 100%;
+ height: 180px;
+ background:transparent;
+ display: block;
+ text-align: center;
+}
+.input-box{
+    width: 83%;
+    display: block;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 50px;
+    padding-left: 6%;
+    box-sizing: border-box;
+    border-style: none;
+    font-size: 17px;
+    margin-top: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+     text-transform: uppercase;
+      
+}
+#number, #name{
+    transform: translateX(10%);
+}
+#expiry,#cvv{
+  width: 41%;
+  display: inline-block;
+  
+}
+
+.btn{
+    position: absolute;
+    width: 83%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 0px;
+    box-shadow: 0px 0px 4px gray;
+    background-color: darkslateblue;
+    padding: 20px;
+    transform: translate(-100%,280%);
+}
+.btn:hover{
+    background-color: forestgreen;
+    cursor: pointer;
+}
+.amount{
+    width: 80%;
+    background-color: #ddd;
+    display: inline-block;
+    transform: translateX(10%);
+    padding: 0 10px 20px 10px;
+    color: black;
+}
+#left{
+   float: left;
+}
+#right{
+    float: right;
+}
+.saving{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.form i{
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    color: gray;
+}
+#user,#cc{
+    left: 10%;
+    transform: translate(4%,80%);
+}
+#cal{
+    transform: translate(80%,90%);
+}
+#lock{
+    transform: translate(90%,90%);
+}

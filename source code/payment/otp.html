@@ -1,0 +1,57 @@
+<%-- 
+    Document   : otp
+    Created on : 28 May, 2020, 4:41:27 PM
+    Author     : prerna sharma
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>OTP Verification</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="otp_css.css"/>
+          <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+     
+    </head>
+    <body >
+ 
+    <div class="form-container">
+      <div class="bank">
+          <i class="fa fa-bank"></i>
+      </div >
+      <div class="disclaimer">
+          <p>Your payment is getting done via safe and secured transaction protocol Advanced Encryption Standard.
+              Please enter the One Time Password that has been sent to your registered mobile number. 
+              This will remain valid for <span>60 seconds</span>. If you have not received the OTP yet then regenerate the 
+              OTP by clicking the resend link. Do not cut trees.<span> PLAESE! SAVE THE NATURE.</span></p>
+      </div>
+      <div class="form">
+           <form>
+          <input id="otp" type="text" name="otp" placeholder="OTP" class="input-box">  
+          <input class="reg-btn" type="submit" name="submit" value="VERIFY">
+            </form>
+      </div>
+      
+      <div class="send">
+          <a href="#" id="resend">resend again</a></div>
+    </div> 
+        <script>
+            function confirmation(){
+                var pass=document.getElementById("otp").value;
+                var correct="0000";
+              
+                if(pass===correct)
+                {
+                   ;
+                }
+                else{
+                    alert("wrong OTP! please enter agian");
+                }
+            }
+        </script>
+  </body>
+</html>

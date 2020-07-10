@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="forgot_css.css">
+        <title>Forgot Password</title>
+    </head>
+        <body >
+ 
+    <div id="otp-container">
+      <div id="disclaimer" style="text-align: center;">
+          <p id="para ">Please! enter your registered email id. You will recieve an OTP.</p>
+      </div>
+      <div id="form">
+          <form  method="POST"  action="../php/verify_mail.php">
+          <input  type="text" name="email" placeholder="email" class="input-box" required>  
+          <input class="reg-btn" name="submit" type="submit" value="SEND OTP">
+          </form>
+      </div>
+    </div> 
+    
+  </body>
+</html>
